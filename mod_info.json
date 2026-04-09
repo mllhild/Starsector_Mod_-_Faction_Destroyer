@@ -1,0 +1,29 @@
+{
+  "id": "mllhild_factiondestroyer", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+  "name": "Faction Destroyer", # Displayed to the player
+  "author": "mllhild",
+  "utility": false,
+  "version": { "major": '1', "minor": '0', "patch": '0' },
+  "description": "Remove Factions, inlcuding vanilla factions from your game. Also permits to redestribute inhabitated systems.",
+# I wish I could also remove a factions hulls, weapons, hullmods or at least limit them to be only used on their ships.
+  "gameVersion": "0.98a-RC5",
+  "jars": [ "jars/FactionDestroyer.jar" ],
+  "modPlugin": "mllhild.FactionDestroyer.FactionDestroyerModPlugin",
+  "dependencies": [
+    {
+        "id": "lunalib",
+        "name": "LunaLib", # Optional (recommended)
+        #"version": "2.0.4" # Optional
+    }
+   # {
+   #     "id": "MagicLib",
+   #     "name": "MagicLib", # Optional (recommended)
+   #     #"version": "0.34" # Optional
+   # },
+   # {
+   #     "id": "shaderLib",
+   #     "name": "GraphicsLib", # Optional (recommended)
+   #     #"version": "1.5.1" # Optional
+   # }
+  ],
+}

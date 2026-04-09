@@ -1,0 +1,33 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+# Vanilla Factions,,,,,,,,
+pirates,pirates,Radio,nothing,"destroy, decimate, become Independent, nothing","select destiny of faction (if you select destroy, then Kanta will be gone)",,,Vanilla
+independent,independent,Radio,nothing,"destroy, decimate, become Pirate, nothing","select destiny of faction (some mods rely on them, so take care)",,,Vanilla
+hegemony,hegemony,Radio,destroy,"destroy, decimate, become Pirate, become Independent, nothing",select destiny of faction (breaks gate unlock quest),,,Vanilla
+tritachyon,tritachyon,Radio,destroy,"destroy, decimate, become Pirate, become Independent, nothing",select destiny of faction (breaks gate unlock quest),,,Vanilla
+sindrian_diktat,sindrian_diktat,Radio,destroy,"destroy, decimate, become Pirate, become Independent, nothing",select destiny of faction (breaks gate unlock quest),,,Vanilla
+lions_guard,lions_guard,Radio,destroy,"destroy, decimate, become Pirate, become Independent, nothing",select destiny of faction,,,Vanilla
+knights_of_ludd,knights_of_ludd,Radio,destroy,"destroy, decimate, become Pirate, become Independent, nothing",select destiny of faction,,,Vanilla
+luddic_church,luddic_church,Radio,destroy,"destroy, decimate, become Pirate, become Independent, nothing",select destiny of faction,,,Vanilla
+luddic_path,luddic_path,Radio,nothing,"destroy, decimate, become Pirate, become Independent, nothing",select destiny of faction (breaks gate unlock quest),,,Vanilla
+persean_league,persean_league,Radio,destroy,"destroy, decimate, become Pirate, become Independent, nothing",select destiny of faction (breaks gate unlock quest),,,Vanilla
+,,,,,,,,
+# Mod Factions,,,,,,,,
+#modFactionsToDestroy,modFactionsToDestroy,String,,,comma separted faction ids found in data\world\factions\factions.csv,,,ModFactions
+#modFactionsToDecimate,modFactionsToDecimate,String,,,comma separted faction ids found in data\world\factions\factions.csv,,,ModFactions
+#modFactionsToIndependent,modFactionsToIndependent,String,,,comma separted faction ids found in data\world\factions\factions.csv,,,ModFactions
+#modFactionsToPirate,modFactionsToPirate,String,,,comma separted faction ids found in data\world\factions\factions.csv,,,ModFactions
+,,,,,,,,
+# Colony Settings,,,,,,,,
+colonySizeMax,colonySizeMax,Int,8,,"If colony is larger than max, resizes it to max. (mainly for old mods that have oversized colonies)",3,10,ColonySettings
+colonySizeMin,colonySizeMin,Int,0,,Removes colonies below this size (so the game starts with less small colonies. This may break mods),0,10,ColonySettings
+colonyCountMax,colonyCountMax,Int,15,,Removes colonies of a faction if above the value,1,50,ColonySettings
+colonyCountAllMax,colonyCountAllMax,Int,-1,,Maximum number of colonies permitted in the game(set to -1 to disable)(will cull smallest first)(is called on load),-1,200,ColonySettings
+,,,,,,,,
