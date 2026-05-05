@@ -1,4 +1,4 @@
-# Starsector IntelliJ Mod Template
+# Starsector Mod
 
 ## Description
 
